@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+* {
+    margin: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 80% 10%;
+    border-radius: 50%;
+}
+
+.right {
+    margin-top: 1rem;
+    font-size: larger;
+    display: block;
+}
+
+.righ {
+    margin-top: 1rem;
+    font-size: larger;
+    display: block;
+    list-style-type: none;
+}
+
+.right li {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+
+/* Education Section   */
+
+.left {
+    width: 50%;
+}
+
+.heading {
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin-left: 1rem;
+    text-decoration: underline;
+    margin-top: 2rem;
+}
+
+.college,
+.higher-secondary,
+.high-school {
+    list-style-type: none;
+}
+
+.education ul {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+
+.sub-heading {
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+
+/* SKILLS */
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0.4rem;
+}
+
+.skills ul {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+
+.programming,
+.web-technology {
+    list-style-type: none;
+}
+
+
+/* PROJECTS */
+
+.projects {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+
+.light-it {
+    font-weight: 200;
+}
+
+
+/* ACHIEVEMENT */
+
+.achieve li {
+    list-style-type: circle;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+
+
+/* AREA OF INTEREST */
+
+.my-area {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+    .left {
+        width: 100%;
+    }
+}
